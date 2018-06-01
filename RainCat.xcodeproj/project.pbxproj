@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201AC46420C139F700B460AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201AC46320C139F700B460AC /* LaunchScreen.storyboard */; };
 		20D85C4E20B7F16800B5E4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D85C4D20B7F16800B5E4DA /* Assets.xcassets */; };
 		20D85C5020B7F88700B5E4DA /* AcadeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D85C4F20B7F88700B5E4DA /* AcadeScene.swift */; };
-		BB046BB71EA157FC001035EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB046BB61EA157FC001035EB /* LaunchScreen.storyboard */; };
 		BB0B1C881D8C9BA900C09901 /* LogoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0B1C871D8C9BA900C09901 /* LogoScene.swift */; };
 		BB0C20551E9EDAE8004C8E84 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0C20541E9EDAE8004C8E84 /* UserDefaultsManager.swift */; };
 		BB35FD831EBBA06A00D58F68 /* CreditLabelButtonSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35FD821EBBA06A00D58F68 /* CreditLabelButtonSprite.swift */; };
@@ -117,9 +117,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		201AC46320C139F700B460AC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20D85C4D20B7F16800B5E4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20D85C4F20B7F88700B5E4DA /* AcadeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AcadeScene.swift; path = Scenes/AcadeScene.swift; sourceTree = "<group>"; };
-		BB046BB61EA157FC001035EB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "/Users/hoang/Documents/RainCat-3/RainCat/LaunchScreen.storyboard"; sourceTree = "<absolute>"; };
 		BB0B1C871D8C9BA900C09901 /* LogoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogoScene.swift; path = Scenes/LogoScene.swift; sourceTree = "<group>"; };
 		BB0C20541E9EDAE8004C8E84 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultsManager.swift; path = Utility/UserDefaultsManager.swift; sourceTree = "<group>"; };
 		BB35FD821EBBA06A00D58F68 /* CreditLabelButtonSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditLabelButtonSprite.swift; sourceTree = "<group>"; };
@@ -265,7 +265,6 @@
 		BB36AD251D75D6E200FB54D0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				BBA2E4AD1D74A62C00853E63 /* GameViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -273,14 +272,15 @@
 		BB36AD261D75D70000FB54D0 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				201AC46320C139F700B460AC /* LaunchScreen.storyboard */,
 				20D85C4D20B7F16800B5E4DA /* Assets.xcassets */,
-				BBA2E4A51D74A62C00853E63 /* AppDelegate.swift */,
+				BBA2E4AD1D74A62C00853E63 /* GameViewController.swift */,
 				BB459C531E9EB1E20027CA9B /* Info.plist */,
 				BB459C4D1E9EB17F0027CA9B /* ColorPalette.plist */,
 				BB459C4E1E9EB17F0027CA9B /* Constants.swift */,
+				BBA2E4A51D74A62C00853E63 /* AppDelegate.swift */,
 				BBD0A8E41D79D4EB00002F71 /* Fonts */,
 				BBA2E4AF1D74A62C00853E63 /* Main.storyboard */,
-				BB046BB61EA157FC001035EB /* LaunchScreen.storyboard */,
 				BBD0A8DB1D78F0F100002F71 /* Music */,
 				BB281B7A1D7899AB00229A97 /* SFX */,
 			);
@@ -587,12 +587,12 @@
 				BB459C4A1E9EB16B0027CA9B /* cat_meow_5.wav in Resources */,
 				BB459C4B1E9EB16B0027CA9B /* cat_meow_6.wav in Resources */,
 				20D85C4E20B7F16800B5E4DA /* Assets.xcassets in Resources */,
+				201AC46420C139F700B460AC /* LaunchScreen.storyboard in Resources */,
 				BB476FB11F05636A005EB2AF /* lcd-pickup.wav in Resources */,
 				BB459C4C1E9EB16B0027CA9B /* cat_meow_7.mp3 in Resources */,
 				BBD0A8E01D78F12C00002F71 /* bensound-clearday.mp3 in Resources */,
 				BB73A6681E9FD22200F6AFB2 /* LCDScreen.sks in Resources */,
 				BBD0A8E21D78F12C00002F71 /* bensound-jazzyfrenchy.mp3 in Resources */,
-				BB046BB71EA157FC001035EB /* LaunchScreen.storyboard in Resources */,
 				BB98D4811DC3A49C00D17C8D /* LCDScene.sks in Resources */,
 				BBA2E4B11D74A62C00853E63 /* Main.storyboard in Resources */,
 				BB476FB71F056431005EB2AF /* move.wav in Resources */,
